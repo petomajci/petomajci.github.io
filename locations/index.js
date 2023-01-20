@@ -14,11 +14,6 @@ function initMap() {
   });
 }
 
-window.initMap = initMap;
-
-
-
-
 
     var map = null;
     var bounds = new google.maps.LatLngBounds();
@@ -150,4 +145,4 @@ window.initMap = initMap;
     };
 
 
-
+window.initMap = initialize;
